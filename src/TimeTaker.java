@@ -19,7 +19,7 @@ public class TimeTaker {
 
     public static void main(String[] args){
         recordTime((n)->fibClosed(n), 46, "fibClosed");
-        recordTime((n)->fibIterative(n), 46, "fibClosed");
-        recordTime((n)->fibRecursive(n), 46, "fibClosed");
+        recordTime((n)->fibIterative(n), 46, "fibIterative");
+        recordTime((n)->fibRecursive(n), 46, "fibRecursive");
     }
 }
